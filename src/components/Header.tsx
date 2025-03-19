@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  {  useState } from 'react';
 import { MenuIcon, X as XIcon, SearchIcon } from 'lucide-react';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 const Header = () => {
@@ -104,9 +104,7 @@ const Header = () => {
                 {item.label}
               </button>)}
             <div className="flex justify-end">
-              <button className="text-gray-700 hover:text-amber-700 transition-colors">
-                <SearchIcon size={20} />
-              </button>
+
             </div>
           </nav>
         </div>
