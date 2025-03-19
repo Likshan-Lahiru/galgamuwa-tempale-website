@@ -1,6 +1,5 @@
-import React from 'react';
+
 import { MapPin, Phone, Mail } from 'lucide-react';
-import DecorativeBorder from './DecorativeBorder';
 const Footer = () => {
   return <footer className="w-full bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-12">
@@ -61,7 +60,7 @@ const Footer = () => {
                 <p className="text-gray-300 text-sm">
                   ශ්‍රී උපතිස්සාරාමය,
                   <br />
-                  61, ගල්ගමුව , 
+                   ගල්ගමුව ,
                   <br />
                   කුරුණැගල , Sri Lanka
                 </p>
@@ -72,24 +71,24 @@ const Footer = () => {
                   info@ශ්‍රීඋපතිස්සාරාමය.com
                 </a>
               </li>
-              <li className="flex items-center">
+           {/*   <li className="flex items-center">
                 <Phone className="text-amber-500 mr-2 flex-shrink-0" size={18} />
                 <a href="tel:+94112435169" className="text-gray-300 text-sm hover:text-amber-500 transition-colors">
                   (+94) 0000000
                 </a>
-              </li>
+              </li>*/}
               <li className="flex items-center">
                 <Phone className="text-amber-500 mr-2 flex-shrink-0" size={18} />
-                <a href="tel:+94112447084" className="text-gray-300 text-sm hover:text-amber-500 transition-colors">
-                  (+94) 00000000
+                <a href="tel:+94718025100" className="text-gray-300 text-sm hover:text-amber-500 transition-colors">
+                  +94 718025100
                 </a>
               </li>
-              <li className="flex items-center">
+             {/* <li className="flex items-center">
                 <Phone className="text-amber-500 mr-2 flex-shrink-0" size={18} />
                 <a href="tel:+94112369622" className="text-gray-300 text-sm hover:text-amber-500 transition-colors">
                   (+94) 0000000
                 </a>
-              </li>
+              </li>*/}
             </ul>
           </div>
         </div>
