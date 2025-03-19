@@ -1,5 +1,5 @@
 import  {  useState } from 'react';
-import { MenuIcon, X as XIcon, SearchIcon } from 'lucide-react';
+import { MenuIcon, X as XIcon } from 'lucide-react';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -78,7 +78,7 @@ const Header = () => {
           }} whileTap={{
             scale: 0.95
           }}>
-              <SearchIcon size={18} />
+
             </motion.button>
           </nav>
           <motion.button className="md:hidden text-gray-700" onClick={() => setIsMenuOpen(!isMenuOpen)} whileTap={{
