@@ -5,7 +5,7 @@ import EventModal from './EventModal';
 import { useNavigate } from 'react-router-dom';
 const slides = [{
   image: 'https://i.ibb.co/5WtCc1PZ/1692593809-Kandy-Esala-Perahera-6.jpg',
-  title: 'වාර්ෂික කඨින පූජා මහා පිංකම'
+  title: ''
 }, {
   image: 'https://i.ibb.co/fVfXvHSs/10.jpg',
   title: 'ශ්‍රී උපතිස්සාරාමය ස්තූපය'

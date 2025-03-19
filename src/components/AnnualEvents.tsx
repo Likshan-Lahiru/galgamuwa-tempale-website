@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, Clock, MapPin } from 'lucide-react';
 import EventModal from './EventModal';
@@ -16,15 +16,8 @@ const events = [{
   time: 'All Day Event',
   location: 'Temple Premises',
   description: 'Celebration of the birth, enlightenment, and passing away of Lord Buddha with lantern displays and devotional songs.',
-  images: ['https://i.ibb.co/QyDSqvt/Untitled-113.jpg', 'https://i.ibb.co/ZrCr5KW/P5051427-ezgif-com-webp-to-jpg-converter.jpg',,]
-}, {
-  title: 'Kathina Ceremony',
-  date: 'October/November',
-  time: '8:00 AM - 12:00 PM',
-  location: 'Main Shrine',
-  description: 'Annual offering of robes to the monks who have completed their rain retreat, marking the end of Vassa period.',
-  images: ['https://i.ibb.co/5WtCc1PZ/1692593809-Kandy-Esala-Perahera-6.jpg', 'https://i.ibb.co/jP2CV7dD/Screenshot-2025-03-19-at-18-03-51.png']
-}];
+  images: ['https://i.ibb.co/QyDSqvt/Untitled-113.jpg', 'https://i.ibb.co/ZrCr5KW/P5051427-ezgif-com-webp-to-jpg-converter.jpg',]
+},];
 const AnnualEvents = () => {
   const [selectedEvent, setSelectedEvent] = useState<(typeof events)[0] | null>(null);
   return <div className="w-full py-16 bg-gray-50">

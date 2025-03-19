@@ -1,0 +1,8 @@
+ /*{
+  title: 'Kathina Ceremony',
+  date: 'October/November',
+  time: '8:00 AM - 12:00 PM',
+  location: 'Main Shrine',
+  description: 'Annual offering of robes to the monks who have completed their rain retreat, marking the end of Vassa period.',
+  images: ['https://i.ibb.co/5WtCc1PZ/1692593809-Kandy-Esala-Perahera-6.jpg', 'https://i.ibb.co/jP2CV7dD/Screenshot-2025-03-19-at-18-03-51.png']
+}*/
