@@ -71,24 +71,14 @@ const Footer = () => {
                   info@ශ්‍රීඋපතිස්සාරාමය.com
                 </a>
               </li>
-           {/*   <li className="flex items-center">
-                <Phone className="text-amber-500 mr-2 flex-shrink-0" size={18} />
-                <a href="tel:+94112435169" className="text-gray-300 text-sm hover:text-amber-500 transition-colors">
-                  (+94) 0000000
-                </a>
-              </li>*/}
+
               <li className="flex items-center">
                 <Phone className="text-amber-500 mr-2 flex-shrink-0" size={18} />
                 <a href="tel:+94718025100" className="text-gray-300 text-sm hover:text-amber-500 transition-colors">
                   +94 718025100
                 </a>
               </li>
-             {/* <li className="flex items-center">
-                <Phone className="text-amber-500 mr-2 flex-shrink-0" size={18} />
-                <a href="tel:+94112369622" className="text-gray-300 text-sm hover:text-amber-500 transition-colors">
-                  (+94) 0000000
-                </a>
-              </li>*/}
+
             </ul>
           </div>
         </div>
