@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import  { useCallback, useEffect, useState } from 'react';
 import { ChevronLeft, ChevronRight, Calendar } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import EventModal from './EventModal';
